@@ -1,0 +1,59 @@
+body{
+  margin: 0px;
+}
+
+#topNav{
+  background-color: blue;
+  height: 15%;
+  margin: 0px;
+}
+
+#topNav li{
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    padding-right: 35px;
+}
+
+#topNav li:hover{
+  background-color: white;
+}
+
+#topNav li a{
+     text-decoration: none;
+     font-family:monospace;
+     font-size: 35px;
+     color: white;
+}
+
+#topNav li a:hover{
+  color: red;
+}
+
+#menuNav{
+    height: 155%;
+    width: 70px;
+    background-color: red;
+    border-right: 2px solid black;
+    margin: 0px;
+    float: left;
+}
+
+#menuNav li{
+  list-style: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 25px;
+}
+
+#menuNav li a{
+  font-family: monospace;
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  height: 200px;
+  width: 400px;
+}
